@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2630 1500" width="2630" height="1500">
+	<title>logo_beta_minimal_transparent</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.t1 { font-size: 325px;fill: #3d563d;font-weight: 400;font-family: "RobotoSlab-Regular", "Roboto Slab" } 
+		.s2 { fill: none;stroke: #3d563d;stroke-linecap: round;stroke-linejoin: round;stroke-width: 40 } 
+	</style>
+	<path id="Layer 1" class="s0" d="m0 0h2630v1500h-2630z"/>
+	<g id="Layer">
+		<text id="B E V A R A  " style="transform: matrix(.97,0,0,1,474,1301.13)" >
+			<tspan x="0" y="0" class="t1">B E V A R A  
+</tspan>
+		</text>
+	</g>
+	<path id="Layer" class="s2" d="m1215.6 758.3l11.6-9.8c393.8-504.9 555-622.8 613.8-591.9 69.3 36.3 61.2 313.5-80.6 425.1-57.2 45.1-120.7 50.9-139.3 107.9-26.7 82.2 78.9 150.2 52.3 198.9-27.9 51-183.4 48.7-311.3-9.1-47-21.2-82.2-46.3-150.4-118.8-38.8-41.3-88.4-97.9-157-178-178-207.7-206.6-267.2-259.6-255.4-1.6 0.3-10.3 1.4-22 8.8q-1.8 1.1-3.6 2.3-1.7 1.2-3.4 2.4-1.6 1.3-3.2 2.7-1.6 1.4-3.1 2.9-1.5 1.5-2.9 3-1.4 1.6-2.7 3.3-1.2 1.6-2.4 3.4-1.2 1.7-2.3 3.5c-44.8 75-47.7 244.9-48.2 264.3-4.5 154 41 205.2 10.1 259.1-30.4 53.2-126.5 94-399.8 58-38.6-5.1-80.7-12.2-126.9-20.1l-58.4-10.4 633.5-564.1"/>
+	<path id="Layer" class="s2" d="m2490.3 887.4l-631.1-714.2"/>
+	<path id="Layer" class="s2" d="m1215 475.1c-98.8 0-178.6-79.8-178.6-178.5 0-98.8 79.8-178.6 178.6-178.6 98.7 0 178.6 79.8 178.6 178.6 0 98.7-79.9 178.5-178.6 178.5z"/>
+</svg>
