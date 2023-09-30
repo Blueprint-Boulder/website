@@ -29,8 +29,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Commits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+When making commits, the commit messages should be written in such a way that one would be able to read it as:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+This commit will "\<your commit message here\>".
+```
+
+As an example, an appropriate commit message would be:
+
+```
+Add all static files from the previous repository.
+```
+
+Since it can be read as:
+
+```
+This commit will add all static files from the previous repository.
+```
