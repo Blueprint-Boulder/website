@@ -1,0 +1,134 @@
+[
+  {
+      "id": 202301,
+      "name": "Judy Chen",
+      "role": "Co-President",
+      "start_year": "2022",
+      "end_year": "Present",
+      "image_url": "/profiles/judy.jpg",
+      "url": "",
+      "github": "",
+      "linkedin": "judy--chen"
+  },
+  {
+      "id": 202306,
+      "name": "Freddy Linn",
+      "role": "Co-President, Webmaster, & Team Lead",
+      "start_year": "2022",
+      "end_year": "Present",
+      "image_url": "/profiles/freddy.jpg",
+      "url": "",
+      "github": "freddylinn",
+      "linkedin": "frederick-linn"
+  },
+  {
+      "id": 39,
+      "name": "Ashlynn McGrattan",
+      "role": "Treasurer",
+      "image_url": "/profiles/ashlynnm.jpg",
+      "url": "",
+      "github": "asmc8098",
+      "start_year": "2020",
+      "end_year": "Present",
+      "linkedin": "ashlynnmcgrattan"
+  },
+  {
+      "id": 10,
+      "name": "Jasey Chanders",
+      "role": "VP of Nonprofits",
+      "start_year": "2021",
+      "end_year": "Present",
+      "image_url": "/profiles/jasey.png",
+      "url": "jaseychanders.com",
+      "github": "jaseychanders",
+      "linkedin": "jasey-chanders-7719511bb"
+  },
+  {
+      "id": 202308,
+      "name": "Ishan Gohil",
+      "role": "VP of Projects",
+      "start_year": "2022",
+      "end_year": "Present",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "linkedin": ""
+  },
+  {
+      "id": 202305,
+      "name": "Shama Bhargav",
+      "role": "VP of Outreach",
+      "start_year": "2022",
+      "end_year": "Present",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "linkedin": ""
+  },
+  {
+      "id": 1111,
+      "name": "Suhani Agarwal",
+      "role": "Culture Coordinator",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2023",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 11,
+      "name": "Jacob Friedman",
+      "role": "Team Lead",
+      "image_url": "/profiles/jacobf.jpg",
+      "url": "",
+      "github": "jacobef",
+      "start_year": "2021",
+      "end_year": "Present",
+      "linkedin": "jacob-friedman-56428221b"
+  },
+  {
+      "id": 110,
+      "name": "Priya Patel",
+      "role": "Team Lead",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2023",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 112,
+      "name": "Ian Fernandez",
+      "role": "Team Lead",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2023",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 113,
+      "name": "Sarah Bian",
+      "role": "Team Lead",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2023",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 114,
+      "name": "Alex Ludwigson",
+      "role": "Team Lead",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2023",
+      "end_year": "Present",
+      "linkedin": ""
+  }
+]

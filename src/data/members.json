@@ -1,0 +1,178 @@
+[
+  {
+      "id": 2000,
+      "name": "Tavin Turner",
+      "role": "Developer",
+      "image_url": "/profiles/tavin.png",
+      "url": "http://ta.vin",
+      "github": "itsTurner",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": "tavin-turner"
+  },
+  {
+      "id": 44,
+      "name": "Matt Moran",
+      "role": "Developer",
+      "image_url": "/profiles/mattm.JPG",
+      "url": "",
+      "github": "MattEMoran",
+      "start_year": "2021",
+      "end_year": "Present",
+      "linkedin": "matthew-m-20980a138"
+  },
+  {
+      "id": 31,
+      "name": "James Tran",
+      "role": "Designer",
+      "image_url": "/profiles/james.JPG",
+      "url": "https://sites.google.com/view/james-tran/home",
+      "github": "",
+      "start_year": "2020",
+      "end_year": "Present",
+      "linkedin": "james-tran-h267"
+  },
+  {
+      "id": 35,
+      "name": "Lola Keychenko",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 350,
+      "name": "Max Eaton",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 351,
+      "name": "Eric Gosnell",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 352,
+      "name": "Nathan Keyt",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 353,
+      "name": "Kevin Chen",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 354,
+      "name": "Oscar Rhoades",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 355,
+      "name": "Tyler Cako",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 356,
+      "name": "Jack McDonald",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 357,
+      "name": "Imad Dar",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 358,
+      "name": "Jace Simmons",
+      "role": "Developer / Designer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 359,
+      "name": "Peter McDevitt",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 360,
+      "name": "Kartik Sharma",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  },
+  {
+      "id": 361,
+      "name": "Rahul Shamkuwar",
+      "role": "Developer",
+      "image_url": "",
+      "url": "",
+      "github": "",
+      "start_year": "2022",
+      "end_year": "Present",
+      "linkedin": ""
+  }
+]
