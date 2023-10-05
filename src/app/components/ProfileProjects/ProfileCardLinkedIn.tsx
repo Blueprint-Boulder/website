@@ -22,7 +22,13 @@ const ProfileCardLinkedIn: React.FC<ProfileCardLinkedInProps> = ({
       aria-label={`follow ${name} on LinkedIn`}
     >
       &nbsp;
-      <Image src="/icons/linkedin.svg" alt={name} className="mb-0 w-4" />
+      <Image
+        src="/icons/linkedin.svg"
+        alt={name}
+        className="mb-0 w-4"
+        width={17}
+        height={17}
+      />
     </a>
   );
 };
