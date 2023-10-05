@@ -21,7 +21,9 @@ const LinkButton: React.FC<LinkButtonProps> = ({
     }`}
     disabled={disabled}
   >
-    <a href={href}>{children}</a>
+    <a href={href} aria-disabled={disabled}>
+      {children}
+    </a>
   </button>
 );
 
