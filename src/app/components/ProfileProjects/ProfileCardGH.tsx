@@ -16,7 +16,13 @@ const ProfileCardGH: React.FC<ProfileCardGHProps> = ({ github, name, id }) => (
     aria-label={`follow ${name} on github`}
   >
     &nbsp;
-    <Image src="/icons/github.svg" alt={name} className="mb-0 w-4" />
+    <Image
+      src="/icons/github.svg"
+      alt={name}
+      className="mb-0 w-4"
+      width={17}
+      height={17}
+    />
   </a>
 );
 
