@@ -19,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <NextThemeProvider>
-      <html lang="en">
-        <body className={`${roboto_mono.variable}`}>{children}</body>
-      </html>
-    </NextThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${roboto_mono.variable}`}>
+        <NextThemeProvider>{children}</NextThemeProvider>
+      </body>
+    </html>
   );
 }
