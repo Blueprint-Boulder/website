@@ -48,3 +48,26 @@ Since it can be read as:
 ```
 This commit will add all static files from the previous repository.
 ```
+
+## Branch Creation
+
+When creating branches, please ensure to follow this syntax, separating each section with a hyphen.
+
+### Category Word
+
+Start the branch name with the main purpose for the branch.
+| Category | Meaning |
+|----------|-----------------------------------------------------------------------|
+| hotfix | for quickly fixing critical issues, usually with a temporary solution |
+| bugfix | for fixing a bug |
+| feature | for adding, removing or modifying a feature |
+| test | for experimenting something which is not an issue |
+| wip | for a work in progress |
+
+### ID of Issue
+
+Use the ID of the relevant issue for this branch to make it easier to link the issue.
+
+### Phrase About the Branch (Optional)
+
+Lastly, you can add a small phrase about what the branch will accomplish.
