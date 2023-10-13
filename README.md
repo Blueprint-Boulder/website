@@ -71,3 +71,7 @@ Use the ID of the relevant issue for this branch to make it easier to link the i
 ### Phrase About the Branch (Optional)
 
 Lastly, you can add a small phrase about what the branch will accomplish.
+
+### Example
+
+Some example branch names would be `feature-39-issue-dependency` and `hotfix-41-update-readme`.
