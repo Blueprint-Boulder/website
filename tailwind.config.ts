@@ -16,6 +16,7 @@ const config: Config = {
       },
       fontFamily: {
         mono: ["var(--font-roboto-mono)"],
+        "sans-serif": ["var(--font-poppins)"],
       },
       colors: {
         "light-blue": "#0078f8",
