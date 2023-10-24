@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.center {
+  text-align: left;
+}
+
+.center h4 {
+  font-weight: normal;
+}
+
 html {
   font-family: 'Poppins', Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
