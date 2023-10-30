@@ -2,7 +2,7 @@
 
 // @ts-ignore
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
-import Button from "../Buttons/Button";
+import Button from "@components/Buttons/Button";
 
 export function SubmitButton() {
   const { pending } = useFormStatus();

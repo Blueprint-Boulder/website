@@ -1,7 +1,7 @@
 import React from "react";
-import leaders from "../../../data/leadership.json";
-import members from "../../../data/members.json";
-import alumni from "../../../data/alumni.json";
+import leaders from "@data/leadership.json";
+import members from "@data/members.json";
+import alumni from "@data/alumni.json";
 import ProjectPersonImg from "./ProjectPersonImg";
 
 interface ProjectMembersProps {
