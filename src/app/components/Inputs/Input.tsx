@@ -8,6 +8,7 @@ interface InputProps {
   name?: string;
   aria_label?: string;
   required?: boolean;
+  autoComplete?: string;
 }
 
 const Input: React.FC<InputProps> = ({
@@ -18,12 +19,14 @@ const Input: React.FC<InputProps> = ({
   name = "",
   aria_label = "",
   required = false,
+  autoComplete = "off",
 }) => (
   <input
     id={id}
     type={type}
     name={name}
     aria-label={aria_label}
+    autoComplete={autoComplete}
     className={`w-full box-border border-2 ${
       error ? "border-red-500" : "border-blue-500"
     } py-3 px-4 rounded-lg mb-2 transition duration-300 placeholder-gray-400`}
