@@ -3,9 +3,9 @@
 import { experimental_useFormState as useFormState } from "react-dom";
 import { submitFormium } from "./actions";
 import { InputField } from "./InputField";
-import Input from "../Inputs/Input";
 import { SubmitButton } from "./SubmitFormButton";
-import { ZodError } from "zod";
+import { Error } from "./Error";
+import Input from "@components/Inputs/Input";
 
 const initialState = {
   name: null,
@@ -14,70 +14,76 @@ const initialState = {
   recaptcha: null,
 };
 
-function getError(id: string, e: Error) {
-  console.log("a");
-  if (e instanceof ZodError) {
-    const issue = e.errors.find((val) => {
-      if (val.path[0] === id) return val;
+function getErrorMessage(id: string, e: string) {
+  const issue = JSON.parse(e).find((val: any) => {
+    if (val.path[0] === id) return val;
+  });
+
+  return issue?.message ?? "";
+}
+
+function checkError(id: string, e: string) {
+  try {
+    const issue = JSON.parse(e).find((val: any) => {
+      if (val.path[0] === id) return true;
+      else return false;
     });
-
-    return issue!.message;
+    return issue;
+  } catch (e) {
+    return false;
   }
-  console.log("f");
-
-  return e.message;
 }
 
 export function ContactForm() {
   const [state, formAction] = useFormState(submitFormium, initialState);
   return (
-    <form action={formAction}>
+    <form action={formAction} autoComplete="on">
       <InputField>
-        <label htmlFor="name">Enter your name</label>
+        <label htmlFor="name">
+          Full Name
+          <p className="text-red-500 inline"> *</p>
+        </label>
         <Input
           id="name"
           name="name"
           aria_label="name"
-          placeholder="Full Name"
-          error={state.error ? true : false}
-          required
+          placeholder="Enter your name..."
+          autoComplete="name"
+          error={checkError("name", state.error)}
         />
-        {state.error ? (
-          <p aria-live="polite" className="text-red-500 text-sm mt-1">
-            {getError("name", state.error)}
-          </p>
-        ) : null}
+        {state.error && <Error>{getErrorMessage("name", state.error)}</Error>}
       </InputField>
       <InputField>
-        <label htmlFor="email">Enter your email address</label>
+        <label htmlFor="email">
+          Email Address
+          <p className="text-red-500 inline"> *</p>
+        </label>
         <Input
           id="email"
           name="email"
           aria_label="email"
-          placeholder="email"
-          error={state.error ? true : false}
-          required
+          placeholder="Enter your Email Address..."
+          autoComplete="email"
+          error={checkError("email", state.error)}
         />
         {state.error ? (
-          <p aria-live="polite" className="text-red-500 text-sm mt-1">
-            {getError("email", state.error)}
-          </p>
+          <Error>{getErrorMessage("email", state.error)}</Error>
         ) : null}
       </InputField>
       <InputField>
-        <label htmlFor="message">Enter the message you wish to send</label>
+        <label htmlFor="message">
+          Message
+          <p className="text-red-500 inline"> *</p>
+        </label>
         <Input
           id="message"
           name="message"
           aria_label="message"
-          placeholder="Message"
-          error={state.error ? true : false}
-          required
+          placeholder="Enter the message you wish to send..."
+          error={checkError("message", state.error)}
         />
         {state.error ? (
-          <p aria-live="polite" className="text-red-500 text-sm mt-1">
-            {getError("message", state.error)}
-          </p>
+          <Error>{getErrorMessage("message", state.error)}</Error>
         ) : null}
       </InputField>
       <div className="center">

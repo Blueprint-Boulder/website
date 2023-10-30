@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileProjectsItem from "./ProfileProjectsItem";
-import current from "../../../data/current.json";
-import past from "../../../data/past.json";
+import current from "@data/current.json";
+import past from "@data/past.json";
 
 interface ProfileProjectsProps {
   name?: string;
