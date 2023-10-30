@@ -84,7 +84,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${roboto_mono.variable} ${poppins.variable}`}>
         <PreloadResources />
-        <NextThemeProvider>{children}</NextThemeProvider>
+        <NextThemeProvider>
+          <main>{children}</main>
+        </NextThemeProvider>
         <Script id="structured-data" type="application/ld+json">
           {structuredDataOrganization}
         </Script>
