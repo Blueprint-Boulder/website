@@ -6,25 +6,31 @@ import { InputField } from "./InputField";
 import { SubmitButton } from "./SubmitFormButton";
 import { Error } from "./Error";
 import Input from "@components/Inputs/Input";
+import { useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const initialState = {
-  name: null,
-  email: null,
-  message: null,
-  recaptcha: null,
+  name: "",
+  email: "",
+  message: "",
+  recaptcha: "",
 };
 
 function getErrorMessage(id: string, e: string) {
-  const issue = JSON.parse(e).find((val: any) => {
-    if (val.path[0] === id) return val;
-  });
-
-  return issue?.message ?? "";
+  try {
+    let issue = JSON.parse(e).issues.find((val: any) => {
+      if (val.path[0] === id) return val;
+    });
+    if (!issue) return "";
+    return issue.message;
+  } catch (e) {
+    return "An error occurred. Please reload the page.";
+  }
 }
 
 function checkError(id: string, e: string) {
   try {
-    const issue = JSON.parse(e).find((val: any) => {
+    let issue = JSON.parse(e).issues.find((val: any) => {
       if (val.path[0] === id) return true;
       else return false;
     });
@@ -35,7 +41,23 @@ function checkError(id: string, e: string) {
 }
 
 export function ContactForm() {
-  const [state, formAction] = useFormState(submitFormium, initialState);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  async function submitForm(previousState: FormState, data: FormData) {
+    const recaptchaValue = recaptchaRef.current?.getValue();
+
+    if (!recaptchaValue) data.append("recaptcha", "");
+    else data.append("recaptcha", recaptchaValue);
+
+    return submitFormium(previousState, data);
+  }
+
+  const [state, formAction] = useFormState(submitForm, initialState);
+
+  const asyncScriptOnLoad = () => {
+    console.log("scriptLoad - reCaptcha Ref-", recaptchaRef);
+  };
+
   return (
     <form action={formAction} autoComplete="on">
       <InputField>
@@ -66,9 +88,7 @@ export function ContactForm() {
           autoComplete="email"
           error={checkError("email", state.error)}
         />
-        {state.error ? (
-          <Error>{getErrorMessage("email", state.error)}</Error>
-        ) : null}
+        {state.error && <Error>{getErrorMessage("email", state.error)}</Error>}
       </InputField>
       <InputField>
         <label htmlFor="message">
@@ -82,9 +102,23 @@ export function ContactForm() {
           placeholder="Enter the message you wish to send..."
           error={checkError("message", state.error)}
         />
-        {state.error ? (
+        {state.error && (
           <Error>{getErrorMessage("message", state.error)}</Error>
-        ) : null}
+        )}
+      </InputField>
+      <InputField>
+        {!state.success && (
+          <div>
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+              asyncScriptOnLoad={asyncScriptOnLoad}
+            />
+            {state.error && (
+              <Error>{getErrorMessage("recaptcha", state.error)}</Error>
+            )}
+          </div>
+        )}
       </InputField>
       <div className="center">
         {state.success ? (
