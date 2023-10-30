@@ -5,7 +5,7 @@ import { ZodError, z } from "zod";
 import { errorMap, isValidationErrorLike } from "zod-validation-error";
 
 export async function submitFormium(
-  _: any,
+  previousState: FormState,
   formData: FormData,
 ): Promise<{ success: boolean; message: string; error?: string }> {
   const schema = z
@@ -13,7 +13,7 @@ export async function submitFormium(
       name: z.string().min(1, "Full name field is required!"),
       email: z.string().email("Invalid email!"),
       message: z.string().min(1, "Message field is required!"),
-      // recaptcha: z.string(),
+      recaptcha: z.string().min(1, "ReCaptcha field is required!"),
     })
     .required();
   z.setErrorMap(errorMap);
@@ -22,6 +22,7 @@ export async function submitFormium(
       name: formData.get("name"),
       email: formData.get("email"),
       message: formData.get("message"),
+      recaptcha: formData.get("recaptcha"),
     });
 
     const res = await fetch(process.env.PORTFOLIO_FORMIUM_ENDPOINT!, {
@@ -48,7 +49,7 @@ export async function submitFormium(
     let error = {
       success: false,
       message: "Failed to submit form.",
-      error: e.message,
+      error: JSON.stringify(e),
     };
     if (e instanceof ZodError || isValidationErrorLike(e)) {
       error.message = "Validation error.";
