@@ -13,7 +13,7 @@ export const Wrapper: React.FC<WrapperProps> = ({
 }) => {
   return (
     <AsComponent
-      className="py-16 flex items-start justify-between lg:flex-col"
+      className="py-16 flex items-start justify-between max-lg:flex-col"
       {...props}
     >
       {children}
