@@ -1,11 +1,11 @@
 import React from "react";
-import { Wrapper } from "./Wrapper";
+import Wrapper from "./Wrapper";
 import Container from "../Containers/Container";
-import { Details } from "./Details";
-import { ContactForm } from "./ContactForm";
 import Thumbnail from "./Thumbnail";
 import contact from "@public/illustrations/contact.svg";
 import Image from "next/image";
+import Details from "./Details";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (

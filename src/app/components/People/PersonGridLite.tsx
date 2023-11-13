@@ -9,3 +9,5 @@ const PersonGridLite: React.FC<PersonGridLiteProps> = ({ children }) => {
     </div>
   );
 };
+
+export default PersonGridLite;

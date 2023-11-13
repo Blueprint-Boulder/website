@@ -4,7 +4,7 @@
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 import Button from "@components/Buttons/Button";
 
-export function SubmitButton() {
+export default function SubmitButton() {
   const { pending } = useFormStatus();
 
   return (
