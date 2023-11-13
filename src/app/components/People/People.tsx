@@ -9,6 +9,7 @@ import ProfileImage from "../ProfileProjects/ProfileImage";
 import ProfileCardContents from "../ProfileProjects/ProfileCardContents";
 import Content from "./Content";
 import ProfileCardName from "../ProfileProjects/ProfileCardName";
+import Button from "../Buttons/Button";
 
 export default function People() {
   return (
@@ -57,6 +58,11 @@ export default function People() {
           ),
         )}
       </PersonGrid>
+      <Button>
+        <a href="/people" style={{ color: "white" }}>
+          Meet all of Blueprint!
+        </a>
+      </Button>
     </Wrapper>
   );
 }
