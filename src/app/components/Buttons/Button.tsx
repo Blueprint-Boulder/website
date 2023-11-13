@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => (
   <button
     className={`cursor-pointer rounded-[3px] py-2 px-10 border-none select-none text-white ${
-      secondary ? "bg-button-blue" : "bg-button-light-blue"
+      secondary ? "bg-button-light-blue" : "bg-button-blue"
     } focus:outline-none disabled:bg-gray-500`}
     disabled={disabled}
     type={type}
