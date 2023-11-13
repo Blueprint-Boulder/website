@@ -15,3 +15,5 @@ const Wrapper: React.FC<WrapperProps> = ({
     </AsComponent>
   );
 };
+
+export default Wrapper;

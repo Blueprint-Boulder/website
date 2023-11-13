@@ -6,7 +6,7 @@ interface WrapperProps {
   [key: string]: any;
 }
 
-export const Wrapper: React.FC<WrapperProps> = ({
+const Wrapper: React.FC<WrapperProps> = ({
   children,
   as: AsComponent = "div",
   ...props
@@ -20,3 +20,5 @@ export const Wrapper: React.FC<WrapperProps> = ({
     </AsComponent>
   );
 };
+
+export default Wrapper;
