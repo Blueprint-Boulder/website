@@ -4,7 +4,7 @@ import React from "react";
 interface ProfileCardWebsiteProps {
   url?: string;
   name: string;
-  id: string;
+  id: number;
 }
 
 const ProfileCardWebsite: React.FC<ProfileCardWebsiteProps> = ({

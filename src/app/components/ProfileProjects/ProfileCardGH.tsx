@@ -4,7 +4,7 @@ import React from "react";
 interface ProfileCardGHProps {
   github?: string;
   name: string;
-  id: string;
+  id: number;
 }
 
 const ProfileCardGH: React.FC<ProfileCardGHProps> = ({ github, name, id }) => (

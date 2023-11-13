@@ -9,3 +9,5 @@ const PersonGrid: React.FC<PersonGridProps> = ({ children }) => {
     </div>
   );
 };
+
+export default PersonGrid;
