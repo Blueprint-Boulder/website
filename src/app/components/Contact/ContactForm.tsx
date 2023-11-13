@@ -2,9 +2,9 @@
 // @ts-ignore
 import { experimental_useFormState as useFormState } from "react-dom";
 import { submitFormium } from "./actions";
-import { InputField } from "./InputField";
-import { SubmitButton } from "./SubmitFormButton";
-import { Error } from "./Error";
+import InputField from "./InputField";
+import SubmitButton from "./SubmitFormButton";
+import Error from "./Error";
 import Input from "@components/Inputs/Input";
 import { useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -40,7 +40,7 @@ function checkError(id: string, e: string) {
   }
 }
 
-export function ContactForm() {
+export default function ContactForm() {
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   async function submitForm(previousState: FormState, data: FormData) {

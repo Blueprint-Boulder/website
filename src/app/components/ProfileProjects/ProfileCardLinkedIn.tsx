@@ -4,7 +4,7 @@ import React from "react";
 interface ProfileCardLinkedInProps {
   linkedin?: string;
   name: string;
-  id: string;
+  id: number;
 }
 
 const ProfileCardLinkedIn: React.FC<ProfileCardLinkedInProps> = ({

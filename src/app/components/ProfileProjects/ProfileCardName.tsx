@@ -8,7 +8,7 @@ interface ProfileCardNameProps {
   url?: string;
   github?: string;
   linkedin?: string;
-  id: string;
+  id: number;
 }
 
 const ProfileCardName: React.FC<ProfileCardNameProps> = ({
@@ -21,9 +21,11 @@ const ProfileCardName: React.FC<ProfileCardNameProps> = ({
   <h3 className="text-light-blue w-fit">
     {name}
     <br />
-    <ProfileCardWebsite url={url} name={name} id={id} />
-    <ProfileCardGH github={github} name={name} id={id} />
-    <ProfileCardLinkedIn linkedin={linkedin} name={name} id={id} />
+    <div className="grid grid-cols-3 w-[80px]">
+      <ProfileCardWebsite url={url} name={name} id={id} />
+      <ProfileCardGH github={github} name={name} id={id} />
+      <ProfileCardLinkedIn linkedin={linkedin} name={name} id={id} />
+    </div>
   </h3>
 );
 
