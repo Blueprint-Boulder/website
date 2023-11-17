@@ -5,6 +5,7 @@ import NextThemeProvider from "./providers/NextThemeProvider";
 import Script from "next/script";
 import { PreloadResources } from "./preload-resources";
 import { Poppins } from "next/font/google";
+import GoogleAnalytics from "@components/GoogleAnalytics/GoogleAnalytics";
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
@@ -82,6 +83,7 @@ export default function RootLayout({
   	}`;
   return (
     <html lang="en" suppressHydrationWarning>
+      <GoogleAnalytics />
       <body className={`${roboto_mono.variable} ${poppins.variable}`}>
         <PreloadResources />
         <NextThemeProvider>

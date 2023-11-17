@@ -33,8 +33,6 @@ export default function People() {
                 <ProfileImage
                   src={image_url.length === 0 ? undefined : image_url}
                   alt={name}
-                  width={1000}
-                  height={1000}
                 ></ProfileImage>
                 <ProfileCardContents>
                   <Content>

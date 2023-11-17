@@ -23,9 +23,16 @@
       "@/*": ["./src/*"],
       "@components/*": ["./src/app/components/*"],
       "@data/*": ["./src/data/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
+      "@lib/*": ["./src/app/lib/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/GoogleAnalytics"
+  ],
   "exclude": ["node_modules"]
 }
