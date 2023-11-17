@@ -6,7 +6,9 @@ interface ThumbnailProps {
 
 const Thumbnail: React.FC<ThumbnailProps> = ({ children }) => {
   return (
-    <div className="flex-1 max-lg:w-full max-lg:mb-8 img-100">{children}</div>
+    <div className="flex flex-1 justify-end max-lg:w-full people-welcome-thumbnail">
+      {children}
+    </div>
   );
 };
 
