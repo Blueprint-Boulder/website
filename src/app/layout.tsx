@@ -4,21 +4,12 @@ import { Roboto_Mono } from "next/font/google";
 import NextThemeProvider from "./providers/NextThemeProvider";
 import Script from "next/script";
 import { PreloadResources } from "./preload-resources";
-import { Poppins } from "next/font/google";
 import GoogleAnalytics from "@components/GoogleAnalytics/GoogleAnalytics";
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-roboto-mono",
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  style: ["normal", "italic"],
-  display: "swap",
-  variable: "--font-poppins",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -84,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <GoogleAnalytics />
-      <body className={`${roboto_mono.variable} ${poppins.variable}`}>
+      <body className={`${roboto_mono.variable}`}>
         <PreloadResources />
         <NextThemeProvider>
           <main>{children}</main>
