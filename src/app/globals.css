@@ -23,6 +23,12 @@
     }
   }
 
+  .img-90 {
+    img {
+      width: 90%;
+    }
+  }
+
   .contact-details {
     h1 {
       margin-bottom: 2rem;
@@ -73,6 +79,36 @@
 
   .skills-bg {
     padding-top: 30px;
+  }
+
+  .intro-details {
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 36pt;
+      color: #0078E8;
+
+      :is(.dark) {
+        color: white;
+      }
+      @media (max-width: 680px) {
+        font-size: 30pt;
+      }
+    }
+
+    h4 {
+      margin-bottom: 2.5rem;
+      font-size: 32pt;
+      font-weight: normal;
+      color: #707070;
+
+      :is(.dark) {
+        color: #e6e6e6;
+      }
+  
+      @media (max-width: 680px) {
+        font-size: 26pt;
+      }
+    }
   }
 
   .dark .people-item {
