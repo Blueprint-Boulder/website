@@ -1,10 +1,10 @@
 import PeopleWelcome from "@components/PeopleWelcome/PeopleWelcome";
-
+import WorkWelcome from "./components/WorkWelcome/WorkWelcome";
+import Skills from "./components/Skills/Skills";
 export default function Home() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <PeopleWelcome></PeopleWelcome>
+      <WorkWelcome></WorkWelcome>
     </div>
   );
 }

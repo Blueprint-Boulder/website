@@ -23,9 +23,9 @@ const Wrapper: React.FC<WrapperProps> = ({
         height={0}
         fill
         style={{
-          objectFit: "cover",
-          zIndex: 0,
+          objectFit: "contain",
           objectPosition: "right top",
+          backgroundRepeat: "no-repeat",
         }}
       />
       {children}
