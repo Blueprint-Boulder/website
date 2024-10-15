@@ -15,7 +15,7 @@ const Wrapper: React.FC<WrapperProps> = ({
 }) => {
   return (
     <AsComponent
-      className="pb-16 bg-contain bg-left-top bg-no-repeat absolute "
+      className="pb-16 bg-contain bg-left-top bg-no-repeat absolute"
       {...props}
     >
       <Image
