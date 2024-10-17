@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
-import NextThemeProvider from "./providers/NextThemeProvider";
+import { NextThemeProvider } from "@providers/NextThemeProvider";
 import Script from "next/script";
 import { PreloadResources } from "./preload-resources";
-import GoogleAnalytics from "@components/GoogleAnalytics/GoogleAnalytics";
+import { GoogleAnalytics } from "src/components/GoogleAnalytics";
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
