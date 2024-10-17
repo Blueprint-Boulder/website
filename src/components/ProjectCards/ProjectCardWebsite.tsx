@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-interface ProfileCardWebsiteProps {
+interface ProjectCardWebsiteProps {
   url?: string;
   name: string;
   id: number;
 }
 
-export const ProfileCardWebsite: React.FC<ProfileCardWebsiteProps> = ({
+export const ProjectCardWebsite: React.FC<ProjectCardWebsiteProps> = ({
   url,
   name,
   id,

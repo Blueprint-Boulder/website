@@ -1,0 +1,233 @@
+[
+  {
+    "id": 231,
+    "name": "Boulder County Nature Association",
+    "session": "Fall 2023-April 2024",
+    "tldr": "Search Engine / Database Development",
+    "description": "BCNA aims to study and conserve the resilient natural ecosystems of Boulder County and adjacent areas of the Colorado Front Range. We will help them categorize information around the countless species of local wildlife.",
+    "github": "",
+    "url": "https://bcna.org/",
+    "image_url": "/nonprofit_logos/bcna.jpg",
+    "video_url": "",
+    "members": [
+      "Jacob Friedman",
+      "Freddy Linn",
+      "Grace Ohlsen",
+      "Luca Chaia",
+      "Amber Perillo"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Portland Indigenous Marketplace",
+    "session": "Fall 2023-April 2024",
+    "tldr": "Database / App Development",
+    "description": "Indigenous Marketplace supports Indigenous artists and entrepreneurs by providing barrier-free, culturally respectful spaces. Our technology will assist them with keeping track of vendor information across their events.",
+    "github": "",
+    "url": "https://indigenousmarketplace.org/",
+    "image_url": "/nonprofit_logos/ind_market.png",
+    "video_url": "",
+    "members": [
+      "Nick Henley",
+      "Harley Ewert"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Bevara",
+    "session": "Fall 2022-April 2023",
+    "tldr": "Website Feature Development",
+    "description": "Bevara is an outdoor conservation startup focused on connecting outdoor users with outdoor nonprofits. We'll be performing flexible on-the-go website feature development to increase the impact of their outdoor stewardship program.",
+    "github": "",
+    "url": "https://bevara.co/",
+    "image_url": "/nonprofit_logos/bevara_logo.svg",
+    "video_url": "",
+    "members": [
+      "Erika Bailon",
+      "Ishan Gohil",
+      "Freddy Linn",
+      "Jack McDonald",
+      "Imad Dar",
+      "Jace Simmons",
+      "Peter McDevitt",
+      "Kartik Sharma",
+      "Rahul Shamkuwar"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Lafayette Empowerment Center",
+    "session": "Fall 2022-April 2023",
+    "tldr": "Database Development",
+    "description": "Lafayette Empowerment Center helps youth create positive social change through the arts, community-based learning, and leadership opportunities. We'll be creating a database for submitting grants, presenting lesson plans, and registering parents/students.",
+    "github": "",
+    "url": "https://www.lafayetteempowerment.org/",
+    "image_url": "/nonprofit_logos/lafayette_logo.png",
+    "video_url": "",
+    "members": [
+      "Jacob Friedman",
+      "Ashlynn McGrattan",
+      "Eric Gosnell",
+      "Nathan Keyt",
+      "Kevin Chen",
+      "Oscar Rhoades",
+      "Tyler Cako"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Earth Force",
+    "session": "Fall 2022-April 2023",
+    "tldr": "Sustainability Challenge Portal",
+    "description": "Earth Force helps to engage young people as active citizens who improve the environment and their communities. Blueprint will create a 'Student Sustainability Challenge Portal' that allows students to submit challenges and share experiences, while also judging other submissions.",
+    "github": "",
+    "url": "https://earthforce.org/",
+    "image_url": "/nonprofit_logos/earth-logo.jpg",
+    "video_url": "",
+    "members": [
+      "Heather Fleming",
+      "Jasey Chanders",
+      "Tavin Turner",
+      "Matt Moran",
+      "James Tran",
+      "Lola Keychenko",
+      "Max Eaton"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Foster Source",
+    "session": "Fall 2021-April 2022",
+    "tldr": "Respite Matching Website",
+    "description": "Finding temporary childcare (i.e. babysitting, though in the foster care system it is called 'respite') requires meeting strict county guidelines, for good reason. However, this makes it difficult for foster parents to take time off, and often leads to burnout. Blueprint's respite-matching website will allow foster parents to find each other for respite when they need it, which will increase retention rates in the foster care system.",
+    "github": "blueprintboulder/f21s22-foster-source",
+    "url": "https://fostersource.org/",
+    "image_url": "/nonprofit_logos/foster_source.png",
+    "video_url": "https://www.youtube.com/watch?v=1O4gGjK8M38",
+    "members": [
+      "Jett Crowson",
+      "James Tran",
+      "Trevor Ward",
+      "Owen Helfer",
+      "Isabell Deak",
+      "Lola Keychenko",
+      "Tahira Zafar"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Colorado Immigrant Rights Coalition",
+    "session": "Fall 2021-April 2022",
+    "tldr": "Hotline Mobile App",
+    "description": "Immigrant communities regularly face hostility and panic outbreaks that can often be alleviated through access to information. Blueprint's hotline app will enable immigrants to know their rights and receive assistance in difficult situations.",
+    "github": "blueprintboulder/f21s22-circ",
+    "url": "https://coloradoimmigrant.org/",
+    "image_url": "/nonprofit_logos/circ.png",
+    "video_url": "https://www.youtube.com/watch?v=Yv2odPoXe8s",
+    "members": [
+      "Anne Chen",
+      "Ian Draves",
+      "Filip Nedelkov",
+      "Ashlynn McGrattan",
+      "Ranjan Sigdel"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Anonymous Applications",
+    "session": "Fall 2021-April 2022",
+    "tldr": "Web-based Identity Redactor and Form Processor",
+    "description": "Anonymous Applications is an In-house Blueprint Team for 2021-2022. Their open-source application removes identifying information from PDFs and other files using a convenient online interface. Universal version of the previous Impact on Education project, which can now be used on any document, and not just scholarship applications.",
+    "github": "blueprintboulder/f21s22-impact-on-education",
+    "url": "",
+    "image_url": "/nonprofit_logos/aalogo.png",
+    "video_url": "https://youtu.be/kLfILw8jVK8",
+    "members": [
+      "Satara Kehn",
+      "Niharika Kunapuli",
+      "Shreyas Kadekodi",
+      "Bryce Schumacher",
+      "Matt Moran",
+      "Anjala Katuri",
+      "Diya Ghimire",
+      "Jacob Friedman"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Impact on Education",
+    "session": "Fall 2021-March 2021",
+    "tldr": "Scholarship Portal",
+    "description": "To make scholarship/grant application reviews fair in the Boulder Valley School District, all applicants' identifying information is removed before the review process. However, this is currently done manually, which is extremely time consuming. Blueprint's scholarship portal will use natural language processing to automate the redaction process, in order to efficiently continue this ethical practice.",
+    "github": "blueprintboulder/f21s22-impact-on-education",
+    "url": "https://www.impactoneducation.org/",
+    "image_url": "/nonprofit_logos/impact_on_education.png",
+    "video_url": "",
+    "members": [
+      "Satara Kehn",
+      "Niharika Kunapuli",
+      "Shreyas Kadekodi",
+      "Bryce Schumacher",
+      "Matt Moran",
+      "Anjala Katuri",
+      "Diya Ghimire",
+      "Jacob Friedman",
+      "Nicholas Henley"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Thinking Huts",
+    "session": "Spring 2021",
+    "tldr": "Web Scrapper to find Madagascan Suppliers",
+    "description": "Thinking Huts seeks to 3D-print schools in Madagascar in order to increase access to education in the region. Additionally, they seek to source their materials from local suppliers to boost the nearby economy, but this is difficult to achieve remotely from Boulder. Blueprint's web scraping tool automates this arudous search process using keywords and provides a list of potential suppliers.",
+    "github": "blueprintboulder/s21-thinking-huts",
+    "url": "https://www.thinkinghuts.org/",
+    "live_project_url": "https://github.com/blueprintboulder/s21-thinking-huts/blob/main/Thinking%20Huts%20Documentation.pdf",
+    "image_url": "/nonprofit_logos/thinking_huts.png",
+    "video_url": "",
+    "members": [
+      "Jaskrit Singh",
+      "Huilin Han",
+      "Cathleen Samson",
+      "Isabell Deak",
+      "Sahand Setareh"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Girls Inc Metro Denver",
+    "session": "Spring 2021",
+    "tldr": "Gamified Learning Platform",
+    "description": "Girls Inc Metro Denver's (GIMD) after-school programming to help girls learn to be smart, strong, and bold, was completely up-ended due to the pandemic. Blueprint extended GIMD's website to host their educational content in a gamified format, effectively pandemic-proofing their outreach program.",
+    "github": "blueprintboulder/s21-girls-inc",
+    "url": "https://www.girlsincdenver.org/",
+    "live_project_url": "https://www.girlsincdenver.org/bb-girls_inc_game/",
+    "image_url": "/nonprofit_logos/girls_inc.jpg",
+    "members": [
+      "Zhouming Sun",
+      "Samridhi Shrestha",
+      "James Tran",
+      "Paige Burns",
+      "Dan Liu",
+      "Elly Landrum"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Safehouse Denver",
+    "session": "Spring 2021",
+    "tldr": "Apricot Database Redesign and Resources",
+    "description": "Safehouse Denver's client database had become uncharted territory over the past few years: none of the staff were able to maintain it, and it was in need of a overhaul. Blueprint's team created a database redesign plan and instructional videos about how to navigate Apricot databases in order to improve Safehouse Denver's data insight and technical sustainability.",
+    "url": "https://safehouse-denver.org/",
+    "live_project_url": "",
+    "image_url": "/nonprofit_logos/safehouse_denver.jpeg",
+    "members": [
+      "Niharika Kunapuli",
+      "Lauren Funston",
+      "Anushka Kathait",
+      "Angel Dong",
+      "Ashlynn McGrattan"
+    ]
+  }
+]
