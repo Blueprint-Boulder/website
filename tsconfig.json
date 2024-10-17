@@ -21,9 +21,9 @@
     "baseUrl": ".",
     "paths": {
       "@app/*": ["./src/app/*"],
-      "@components/*": ["./src/app/components/*"],
-      "@providers/*": ["./src/app/providers/*"],
-      "@lib/*": ["./src/app/lib/*"],
+      "@components/*": ["src/components/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@lib/*": ["./src/lib/*"],
       "@data/*": ["./src/data/*"],
       "@public/*": ["./public/*"],
     }
@@ -33,7 +33,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/components/GoogleAnalytics"
   ],
   "exclude": ["node_modules"]
 }
