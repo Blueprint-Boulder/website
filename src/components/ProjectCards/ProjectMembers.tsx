@@ -4,11 +4,7 @@ import members from "@data/members.json";
 import alumni from "@data/alumni.json";
 import { ProjectPersonImg } from "./ProjectPersonImg";
 
-interface ProjectMembersProps {
-  children: React.ReactNode;
-}
-
-export const ProjectMembers: React.FC<ProjectMembersProps> = ({ children }) => {
+export const ProjectMembers: React.FC = () => {
   if (!members) return null;
   return (
     <>
@@ -27,7 +23,6 @@ export const ProjectMembers: React.FC<ProjectMembersProps> = ({ children }) => {
         {members.map((member) => {
           for (let i = 0; i < leaders.length; i++) {
             if (leaders[i].name === member.name) {
-              //Match!
               return (
                 <ProjectPersonImg
                   key={member.id}
@@ -44,7 +39,6 @@ export const ProjectMembers: React.FC<ProjectMembersProps> = ({ children }) => {
 
           for (let i = 0; i < members.length; i++) {
             if (members[i].name === member.name) {
-              //Match!
               return (
                 <ProjectPersonImg
                   key={member.id}

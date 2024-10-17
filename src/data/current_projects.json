@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Natural Highs",
+    "session": "Fall 2024-April 2025",
+    "tldr": "App Development",
+    "description": "Natural Highs is an interactive strengths-based Prevention/Intervention Peer Mentor Program that is co-created by teens to empower teens and their communities around healthy lifestyle choices and creating a positive peer culture.",
+    "github": "",
+    "url": "https://www.naturalhighs.org/",
+    "image_url": "/nonprofit_logos/naturalHighs.jpg",
+    "video_url": "",
+    "members": [
+      "Ari Guzzi",
+      "Aidan Donnelly"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Curls On The Block",
+    "session": "Fall 2024-April 2025",
+    "tldr": "Database / Web Development",
+    "description": "Curls on the Block is an enrichment program for girls of all curls and colors to embrace, explore and empower their natural selves while working to increase engagement, investment, and commitment to careers in science, technology, engineering, art, and math (STEAM).",
+    "github": "",
+    "url": "https://curlsontheblock.org/",
+    "image_url": "/nonprofit_logos/curls.png",
+    "video_url": "",
+    "members": [
+      "Ethan Coleman"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Womenexus",
+    "session": "Fall 2023-Present",
+    "tldr": "App Development",
+    "description": "Womenexus is an app intended to help foster meaningful connections among women, for support through life's challenges and career goals.",
+    "github": "",
+    "url": "https://womenexus.buffscreate.net/",
+    "image_url": "/nonprofit_logos/womenexus.jpg",
+    "video_url": "",
+    "members": [
+      ""
+    ]
+  }
+]

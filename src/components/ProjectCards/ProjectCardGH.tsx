@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-interface ProfileCardGHProps {
+interface ProjectCardGHProps {
   github?: string;
   name: string;
   id: number;
 }
 
-export const ProfileCardGH: React.FC<ProfileCardGHProps> = ({
+export const ProjectCardGH: React.FC<ProjectCardGHProps> = ({
   github,
   name,
   id,
